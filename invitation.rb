@@ -2,9 +2,7 @@
 
 # Try starting out with puts'ing a string.
 
-puts "Welcome!"
-puts "Please insert your information for your party."
-puts "Please insert guest name."
+puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.chomp
 puts "Please insert party name."
 party_name = gets.chomp
