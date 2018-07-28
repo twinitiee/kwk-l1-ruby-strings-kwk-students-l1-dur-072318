@@ -5,15 +5,15 @@
 puts "Welcome!"
 puts "Please insert your information for your party."
 puts "Please insert guest name."
-guest_name = gets.strip
+guest_name = gets.chomp
 puts "Please insert party name."
-party_name = gets.strip
+party_name = gets.chomp
 puts "Please insert date."
-date = gets.strip
+date = gets.chomp
 puts "Please insert time."
-time = gets.strip
+time = gets.chomp
 puts "Please insert host name."
-host_name = gets.strip
+host_name = gets.chomp
 
 puts "Dear #{guest_name}
 
